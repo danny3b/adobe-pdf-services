@@ -1,0 +1,22 @@
+{
+    "name": "danny3b/adobe-pdf-services",
+    "description": "A PHP SDK for creating PDFs using Adobe PDF Services.",
+    "type": "library",
+    "version": "0.1",
+    "require": {
+        "php": ">=8.0",
+        "rmccue/requests": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "AdobePDFServices\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Bąk",
+            "email": "daniel@artcity.pl"
+        }
+    ]
+}
